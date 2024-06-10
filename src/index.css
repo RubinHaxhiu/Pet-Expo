@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.close-modal {
+  display: flex;
+  cursor: pointer;
+  color: #aaa;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.modal-container{
+  text-align: center;
+  overflow: auto;
+}
+
+.modal-container img{
+  width: 60%;
+  height:auto;
+}
+
+.modal-container h4{
+  color: rgb(102, 102, 102);
+}
+
+@media screen and (max-width:768px) {
+  .modal-container img{
+    width: 100%;
+    height:auto;
+  }
+}
+
+.pets-navbar{
+  padding: 0 20px;
+  background-color: #1d3036;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pets-navbar h1{
+  cursor: pointer;
+  color: white;
+}
+
+.pets-navbar h1:hover{
+  text-decoration: underline;
+}
+
+.pets-navbar input{
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+
+.pets-navbar button{
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+}

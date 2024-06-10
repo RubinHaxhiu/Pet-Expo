@@ -1,0 +1,54 @@
+.types{
+    padding-top: 12vh ;
+    background-color: rgba(58, 58, 58, 0.164);
+    padding-bottom: 30px;
+    background-image: url('../../assets/pets-picture2.jpeg');
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.types-card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 60px 0 ;
+}
+
+.types-title{
+    display: flex;
+    justify-content: center;
+    font-size: 7.5vh;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+}
+
+ .types-card{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+    overflow: hidden;
+    background-color: beige;
+}
+
+.types-card:hover{
+    cursor: pointer;
+    scale: 1.025;
+    transition: 0.25s;
+}
+
+.types-card img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.types-card h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
